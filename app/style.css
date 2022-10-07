@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menuitems {
+    list-style: none;
+    padding: 5px;
+    border-radius:7px;
+    padding: 8px;
+}
+.menuitems a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+.dashboard-ul {
+    display: none;
+    list-style: none;
+}
+#dashboard {
+    background: local;
+}
+#dashboard:hover .dashboard-ul {
+    display: block;
+
+}   
+
+/*
+.menuitems:hover {
+
+    background-color: #0D6EFD;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+*/
+
+.menuitems:first-child {
+    background-color: #0D6EFD;
+    box-shadow: 1.5px 1.5px 1.5px #0D6EFD;
+}
+
+.sidebar {
+    background-color: #212529;
+    height: 100vh;
+    width: 40%;
+}
+
+.menu {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 85%;
+    justify-content: space-between;
+
+}
+
+.baslik {
+    color: white;
+    text-align: center;
+    height: 10vh;
+    letter-spacing: 2.5px;
+    position: relative;
+    top: 20px;
+}
+hr {
+    z-index: 1;
+}
+
+
+/*
+
+form /blog.php
+
+*/
+
+.forms {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.forms button {
+    margin-top: 20px;
+}
+
+/*
+listblog.php
+*/
+
+.listblog{
+    width: 40%;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    flex-direction: column;
+
+
+}
+
+.blogitem:first-child {
+    background-color: #0D6EFD;
+    color: #FFE9FF;
+}
+
+.blogitem {
+   padding: 7px;
+    margin-top: 0px;
+    border: 0.5px solid #D9DADB;
+}
+
+.icerik {
+  color: black;
+}
+
+
+.texts {
+    height: 30vh;
+    max-height: 50vh;
+}
+
+.count {
+    background-color: green;
+    border-radius: 100%;
+    padding: 3px;
+
+}
